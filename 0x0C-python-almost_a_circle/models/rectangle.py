@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-from models import base
+from models.base import Base
 
 class Rectangle(Base):
     """class Rectangle: inherits from the Base clase"""
@@ -115,6 +115,3 @@ class Rectangle(Base):
     def __str__(self):
         """Return the print() and str() rep of the Rectangle"""
         return "[Rectangle] ({}) {}/{} - {}/{}".format(self.id, self.x, self.y, self.width, self.height)
-    
-                
-                    
